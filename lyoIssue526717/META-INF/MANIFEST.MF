@@ -11,8 +11,9 @@ Import-Package: javax.servlet,
  org.eclipse.jetty.servlet,
  org.eclipse.lyo.oslc4j.core.model,
  org.eclipse.lyo.oslc4j.provider.jena,
- org.glassfish.jersey.server,
- org.glassfish.jersey.servlet,
+ org.glassfish.jersey;version="2.26.0",
+ org.glassfish.jersey.server;version="2.26.0",
+ org.glassfish.jersey.servlet;version="2.26.0",
  org.osgi.framework,
  org.osgi.service.http.whiteboard
 Bundle-ActivationPolicy: lazy

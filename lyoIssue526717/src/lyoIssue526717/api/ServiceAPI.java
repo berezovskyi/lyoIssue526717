@@ -10,11 +10,10 @@ import javax.ws.rs.Produces;
 
 import org.eclipse.lyo.oslc4j.core.model.Publisher;
 
-@Path("publisher")
 public interface ServiceAPI {
 
   
   @GET
-  @Produces("application/xml")
+  @Produces("application/rdf+xml")
   public Publisher getPublisher();
 }
